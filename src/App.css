@@ -1,0 +1,18 @@
+@import "./styles/nav.css";
+@import "./styles/banner.css";
+@import "./styles/info.css";
+@import "./styles//mediaquery.css";
+
+#root {
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100%;
+  width:100%;
+  scroll-behavior: smooth;
+}
+
+
+
+

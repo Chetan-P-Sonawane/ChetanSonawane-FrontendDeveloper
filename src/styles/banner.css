@@ -1,0 +1,36 @@
+#banner{
+    height:100%;
+    width:100%;
+    
+    .imagediv{
+        height:100vh;
+        width:100%;
+        img{
+            height:100%;
+            width:100%;
+            object-fit:cover;
+        }
+
+        .bannertext{
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            display: flex;
+            flex-direction:column;
+            align-content: center;
+            justify-content: center;
+            h1,h3{
+                font-family: gilroy;
+                font-weight: 400;
+            }
+            h1{
+                font-size: 60px;
+                margin: 0;
+            }
+            
+        }
+    }
+
+}
+
